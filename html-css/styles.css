@@ -12,3 +12,225 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+
+/* **********************************************************************************************
+HEADER - TITLE, NAV
+********************************************************************************************** */
+
+header
+{
+    background:rgb(37, 37, 37);
+    position: relative;
+}
+
+.hwrapper
+{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    padding: 3em;
+}
+
+#page-title
+{
+    flex: 60%;
+    font-family: 'Arial';
+    font-size: 42pt;
+    font-weight: bold;
+    color: rgb(42, 171, 226);
+}
+
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    flex: 31%;
+    justify-content: space-around;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+
+
+/* **********************************************************************************************
+ASIDE - PROFILE BOX, POPULAR ARTICLES
+********************************************************************************************** */
+aside
+{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 3vw;
+}
+
+.profile
+{
+    width: 29em;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    margin-right: 10vw;
+    box-shadow: 0 0 30px 10px rgba(102, 75, 75, .3);
+}
+
+#username
+{
+    margin-top: 2em;
+}
+
+.popular
+{
+    width: 29em;
+    float: right;
+    margin-right: 10vw;
+    margin-top: 2.5vw;
+    padding: 3em;
+    box-shadow: 0 0 30px 10px rgba(102, 75, 75, .3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.top10
+{
+    margin-top: 2em;
+    padding-right: 5em;
+
+}
+
+
+
+/* **********************************************************************************************
+MAIN - Text title, text, image gallery
+********************************************************************************************** */
+
+main{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.mcwrapper 
+{
+    margin-left: 10vw;
+    margin-right: 38vw;
+}
+
+.mctext
+{
+    margin-top: 3em;
+}
+
+p, ol, ul
+{
+    margin-top: 10px;
+    font-family: 'Arial';
+    line-height: 2.2;
+    font-size: 18pt;
+}
+
+h1
+{
+    font-family: 'Arial';
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+h2
+{
+    font-family: 'Arial';
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.gallery 
+{
+    width: 100%;
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+}
+
+.enlarge
+{
+    text-align: end;
+}
+
+.gallery-wrapper 
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-wrapper 
+{
+    width: 15vw;
+    margin: 10px;
+    height: 8vw;
+}
+
+img 
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* **********************************************************************************************
+STICKY
+********************************************************************************************** */
+.question
+{
+    font-size: 30pt;
+    font-family: 'Arial';
+    margin-left: 4px;
+    position: relative;
+}
+
+.qwrapper
+{
+    height: 2em;
+    width: 2em;
+    border: 10px solid rgb(37, 37, 37);
+    border-radius: 50%;
+    padding: 1em;
+    background: rgb(42, 171, 226);
+    position: relative;
+
+}
+
+.sticker {
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+}
+
+
+
+
+/* **********************************************************************************************
+FOOTER - learn to code
+********************************************************************************************** */
+
+footer
+{
+    background: rgb(42, 171, 226);
+    padding: 1
+}
+
+.fwrapper
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 3em;
+}
